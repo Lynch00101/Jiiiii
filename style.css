@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#noButton {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#yesButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+img, video {
+    display: none;
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+}
